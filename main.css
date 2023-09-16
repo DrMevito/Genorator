@@ -1,0 +1,79 @@
+main {
+  padding-top:30px;
+}
+
+main .row {
+  margin-top:;
+}
+
+.container {
+  overflow: hidden;
+}
+
+  
+/* Style the buttons */
+Button {
+  padding:8px 10px;
+  cursor: pointer;
+  border-bottom-right-radius:14px;
+  border-top-left-radius:14px;
+  font-size:1.1rem;
+  transition:0.2s;
+}
+.btn{
+  background-color: #2F575D;
+  border:none;
+  outline:none;
+}
+.btn a{
+  color:#ffffff;
+}
+.btn2{
+  border:2px solid #2F575D;
+  background-color:#dcf5e2;
+  color: #2F575D;
+  
+}
+.btn2 a{
+  color: #2F575D;
+}
+
+/* Add a light grey background on mouse-over */
+Button:hover {
+  transform: translateX(5px) translateY(-5px);
+	box-shadow: -5px 5px 0 0 #bcd1c1;
+}
+
+.btn:hover {
+  background-color: #383838;
+}
+.btn2:hover {
+
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  
+ }
+.btn2.active{
+  
+}
+
+@media only screen and (max-width:600px) {
+
+ }
+
+
+/**anchor blue remove**/
+.noSelect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.noSelect:focus {
+    outline: none !important;
+}
