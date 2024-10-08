@@ -55,7 +55,7 @@ function myFunction() {
 
 //swiper js//
 
-const swiper1 = new Swiper('.swiper', {
+/* const swiper1 = new Swiper('.swiper', {
   autoplay: {
   delay:2500,
   disableOnInteraction:false,
@@ -72,7 +72,7 @@ const swiper1 = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
   
-});
+});*/
 
 //red more//
 
