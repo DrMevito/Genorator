@@ -55,7 +55,7 @@ function myFunction() {
 
 //swiper js//
 
-const swiper = new Swiper('.swiper', {
+const swiper1 = new Swiper('.swiper', {
   autoplay: {
   delay:2500,
   disableOnInteraction:false,
